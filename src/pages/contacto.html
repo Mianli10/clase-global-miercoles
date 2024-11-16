@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Contacto</title>
+        <link rel="icon" href="./src/assets/images/gato-logo.png" type="image/x-icon">
+    </head>
+<body>
+    <h1>Contactanos para adoptar </h1>
+    <form action="./formulario_entregado.html" method="post">
+        <fieldset>
+          <legend>Datos del adoptante</legend>
+          <label for="gato1">¿Cual gato queres adoptar?</label>
+          <label for="gato1">
+            <input type="radio" name="gato-elegido" id="gato-elegido-1" value="gato1"/>Pelusa
+          </label>
+          <label for="gato2">
+              <input type="radio" name="gato-elegido" id="gato-elegido-2" value="gato2" />Michifus
+          </label>
+          <label for="gato3">
+              <input type="radio" name="gato-elegido" id="gato-elegido-3" value="gato3"/>Macri
+          </label>
+          <label for="gato4">
+              <input type="radio" name="gato-elegido" id="gato-elegido-4" value="gato4"/>
+          Cualquiera</label>
+          <br/>
+          <br/>
+          <label for="mail">Email: </label>
+          <input type="text" id="name" name="name" size="30" />
+          <br/>
+          <br/>
+          <label for="fecha-nacimiento">Fecha de nacimiento: </label>
+          <input type="date" id="fecha-nacimiento" name="fecha-nacimiento" />
+        <br>
+        <br>
+        <br>
+        <label>Selecciona todas las posibles: </label>        
+        <br />
+        <label
+        ><input type="checkbox" id="cbox1" value="condicion1" /> Tengo otras mascotas</label
+        ><br />
+        <input type="checkbox" id="cbox2" value="condicion2" />
+        <label for="cbox2">¿Te comprometes a castrarlos?</label>
+        <br />
+        <input type="checkbox" id="cbox3" value="condicion3" />
+        <label for="cbox3">Cuento con red de seguridad para ventanas y balcones</label>
+        <br/>
+        <br/>
+        <input type="submit" value="Enviar" />
+        </fieldset>
+      </form>
+</body>
+</html>
